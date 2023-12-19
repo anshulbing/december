@@ -22,4 +22,4 @@ resource "aws_iam_role" "lambda-DDB-role" {
         ],
         
     })
-}
+} 
