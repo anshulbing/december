@@ -6,7 +6,7 @@ provider "aws" {
   secret_key = "A6EjTdOC4cQV+Z8x0RU/wS0e7V/OFGY24wR4UPkP"
 }
 
-# create IAM role for the second lambda function
+# create IAM role for the second lambda function CHANGES
 resource "aws_iam_role" "lambda-DDB-role" {
     name = "lambda-DDB-role"
     
